@@ -1,6 +1,7 @@
 ﻿using Core.Entities;
 using Core.Repositories.Abstracts;
 using Core.Repositories.Concretes;
+using Entities.Concretes;
 using Repositories.Abstracts;
 using Repositories.Concretes.EntityFramework.Contexts;
 using System;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Entities
 {
-    public class User:BaseEntity<Guid>
+    public  class User:BaseEntity<Guid>
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -15,8 +15,10 @@ namespace Core.Entities
         public string Password { get; set; }
    
         public DateOnly DateOfBirth { get; set; }
-       
-   
+
+        
+
+
     }
     
     

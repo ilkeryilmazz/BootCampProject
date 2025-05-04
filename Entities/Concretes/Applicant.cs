@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Entities.Concretes
 {
-    public class Applicant:User
+    public class Applicant: Core.Entities.User
     {
         public string About { get; set; }
+        public virtual Blacklist Blacklist { get; set; }
     }
 }

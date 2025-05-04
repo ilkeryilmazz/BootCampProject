@@ -10,4 +10,12 @@
     <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\NIX\Desktop\Projects\C#\BootCampProject\Entities\Concretes\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\NIX\Desktop\Projects\C#\BootCampProject\Entities\Concretes\.editorconfig" />
+  </ItemGroup>
+
 </Project>

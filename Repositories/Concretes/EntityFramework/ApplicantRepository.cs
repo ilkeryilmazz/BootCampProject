@@ -12,4 +12,6 @@ namespace Repositories.Concretes.EntityFramework
         }
     }
 
+    
+
 }
